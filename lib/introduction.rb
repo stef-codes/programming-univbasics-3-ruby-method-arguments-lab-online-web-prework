@@ -7,13 +7,10 @@ def introduction_with_language(name,language)
   I am learning to program in #{language}."
 end
 
-=begin
-def introduction_with_language(name,language)
-  language = "Ruby"
+def introduction_with_language(name,language = "Ruby")
   puts "Hi, my name is #{name} and 
   I am learning to program in #{language}."
 end
-=end
 
 
 
